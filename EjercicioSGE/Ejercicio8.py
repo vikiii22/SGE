@@ -1,12 +1,15 @@
 asignatura = ['Matemática', 'Lengua', 'Historia', 'Física']
-notaPuesta=0
-notas=0
-
-for nota in asignatura:
-    print(nota)
+notas=[]
+notasMedia=0
+print("Añade tus notas en cada asignatura:")
+for a in asignatura:
+    print(a)
     notaPuesta=int(input())
-    notas=notas+notaPuesta
-    print("Tu nota en {} es {}".format(nota, notaPuesta))
-    print()
+    notas.append(notaPuesta)
 
-print("Tu media de notas es: {:.0f}".format(notas / asignatura.__len__()))
+for l in range(len(asignatura)):
+    print("Tu nota en {} es {}".format(asignatura[l], notas[l]))
+    notasMedia=notasMedia+notas[l]
+
+print("---------MEDIA---------")
+print("Tu media de notas es: {:.0f}".format(notasMedia / len(asignatura)))
