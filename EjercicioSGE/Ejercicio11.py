@@ -1,4 +1,4 @@
-asignaturas = {'Matemáticas': 6, 'Física': 4, 'Química': 5}
+asignaturas = {'SGE': 6, 'Programación': 4, 'Desarrollo de Interfaces': 5}
 creditos = 0
 for i in asignaturas.keys():
     print(i, "Tiene", asignaturas.get(i), "créditos")
