@@ -1,3 +1,5 @@
+#No funciona bien, he tenido que mirar en la página para guiarme un poco
+
 usuarios="nif;nombre;email;teléfono;descuento\n" \
          "01234567L;Luis González;luisgonzalez@mail.com;656343576;12.5\n" \
          "71476342J;Macarena Ramírez;macarena@mail.com;692839321;8\n" \
