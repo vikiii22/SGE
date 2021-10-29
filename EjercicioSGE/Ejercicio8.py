@@ -1,4 +1,4 @@
-asignatura = ['Matemática', 'Lengua', 'Historia', 'Física']
+asignatura = ['Matemáticas', 'Lengua', 'Historia', 'Física']
 notas=[]
 notasMedia=0
 print("Añade tus notas en cada asignatura:")

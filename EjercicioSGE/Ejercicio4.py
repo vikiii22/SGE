@@ -2,6 +2,6 @@ nombre = input("Dime tu nombre: ")
 sexo = input("Dime tu sexo (F)emenino/(M)asculino: ")
 
 if (nombre < "M" and sexo == "F") or (nombre < "N" and sexo == "M"):
-    print("Perteneces al grupo A")
+    print("Perteneces al grupo DAM A")
 else:
-    print("Perteneces al grupo B")
+    print("Perteneces al grupo DAM B")
